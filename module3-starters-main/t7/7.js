@@ -1,9 +1,9 @@
 'use strict';
 function hoveringPic() {
-    img.src = 'img/picA.jpg';
+    img.src = 'img/picB.jpg';
 }
 function notHovering() {
-    img.src = 'img/picB.jpg';
+    img.src = 'img/picA.jpg';
 }
 let hover = document.getElementById('trigger');
 let img =  document.getElementById("target");
